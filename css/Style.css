@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: yekan;
+  direction: rtl;
+  background-color: #edf2f4;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+a:hover {
+  color: #909090;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header ...............................................................*/
+#darkIcon:hover {
+  color: #000;
+}
+
+#logo {
+  width: 119px;
+  height: 50px;
+}
+
+header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+header #btnHeader {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 61px;
+}
+
+/* Footer ....................................................*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 31px;
+  background-color: #fff;
+}
+
+footer h6 {
+  font-size: 1rem;
+}
+
+footer > div {
+  width: 350px;
+}
+
+/* Body .....................................................*/
+#containerSec {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+#middleSec {
+  width: 63%;
+}
+
+#menuSec {
+  width: 17%;
+}
+
+#postSec {
+  width: 15%;
+}
+.caption {
+  position: absolute;
+  bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  width: 600px;
+  color: #fff;
+  border-radius: 30px;
+  right: 31px;
+}
+
+.contImage {
+  position: relative;
+}
+.contImage a {
+  color: #fff;
+}
+.featureCat {
+  display: flex;
+}
+
+.cat1 {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  position: relative;
+}
+.cap{
+  position: absolute;
+  top: 85px;
+  right: 62px;
+  color: #fff;
+}
+
+
+
+@font-face {
+  font-family: "yekan";
+  src: url("../fonts/Yekan.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Yekan.woff2") format("woff2"),
+    /* Modern Browsers */ url("../fonts/Yekan.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/Yekan.otf") format("opentype"),
+    /* Open Type Font */ url("../fonts/Yekan.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/Yekan.svg#Yekan") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
